@@ -3505,7 +3505,6 @@ jQuery(function ($) {
                         if (evt.type === 'mouseup') {
                           
                           $('#itemsWrapperLinks .trigger-item-link, #itemsWrapperLinks .trigger-item-link-secondary').on('click', function() {					
-                                return false;
                                 let parent_item = $(this).closest( '.trigger-item' );
                                 parent_item.addClass('above');
                                 
