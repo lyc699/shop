@@ -203,7 +203,7 @@ Common Slider Styles
     display:block;
     z-index:100;	
     object-position: center; 
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .clapat-slider img {
