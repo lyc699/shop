@@ -2876,7 +2876,7 @@ Function Showcase Snap Slider
 			// Snap Slider Project Load Events
 			if (!$("body").hasClass("disable-ajaxload")) {
 				$('.snap-slider-thumbs-wrapper .thumb-slide').on('click', function() {
-		
+					return false;
 					var index = $(this).index();
 		
 					let triggered_slide = $(this);
