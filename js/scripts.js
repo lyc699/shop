@@ -1463,6 +1463,7 @@ Function Showcase Portfolio
 			}		
 
 			$('.trigger-item').on('click', function() {
+				return false;
 				if (!$('.showcase-portfolio').hasClass('list-grid')) {
 					$("body").addClass("load-project-thumb");
 				}
@@ -2625,7 +2626,7 @@ Function Showcase Gallery
 			
 			
 			$('.trigger-item').on('click', function() {
-				
+				return false;
 				$("body").addClass("load-project-thumb");
 				$("body").removeClass("enable-trigger");				
 				$("body").append('<div class="temporary-hero"><div class="outer content-full-width text-align-center"><div class="inner"></div></div></div>');
